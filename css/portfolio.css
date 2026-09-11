@@ -22,6 +22,8 @@
 
 .portfolio-card {
   width: calc((100% - 48px) / 3);
+  
+  
 }
 
 .portfolio-content {
@@ -45,4 +47,8 @@
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.portfolio-card:hover{
+  box-shadow: #2E2F4214, #2E2F4229;
 }

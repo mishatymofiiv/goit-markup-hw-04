@@ -21,6 +21,7 @@
 .team-block {
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
+  box-shadow: #2E2F4214, #2E2F4229;
 }
 
 .team-content {
@@ -44,4 +45,35 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.social-svg{
+  color: #F4F4FD;
+  
+}
+
+.icons-style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  background-color: #4D5AE5;
+}
+
+.icons-style:hover{
+  background-color: #404BBF;
+
+}
+
+.icons-style:active{
+  background-color: #404BBF;
+
+}
+
+.team-link {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
 }

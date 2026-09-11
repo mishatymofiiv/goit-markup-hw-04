@@ -80,3 +80,7 @@
 .address-link:focus {
   color: #404BBF;
 }
+
+.active {
+  color: #404BBF;
+}
