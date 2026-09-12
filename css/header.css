@@ -83,4 +83,16 @@
 
 .active {
   color: #404BBF;
+  position: relative;
+}
+
+.active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 4px;
+    background-color: #404BBF;
+    border-radius: 2px;
 }

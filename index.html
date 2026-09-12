@@ -66,9 +66,11 @@
           <h2 class="sr-only">Our Features</h2>
           <ul class="features-list">
             <li>
-              <svg class="illustration" width="32" height="32">
+              <div class="decoration">
+              <svg class="illustration" width="64" height="64">
                 <use href="./images/icons.svg#antena"></use>
               </svg>
+              </div>
               <h3>Strategy</h3>
               <p>
                 Our goal is to identify the business problem to walk away with
@@ -76,9 +78,11 @@
               </p>
             </li>
             <li>
-              <svg class="illustration" width="32" height="32">
+              <div class="decoration">
+              <svg class="illustration" width="64" height="64">
                 <use href="./images/icons.svg#clock"></use>
               </svg>
+              </div>
               <h3>Punctuality</h3>
               <p>
                 Bring the key message to the brand's audience for the best price
@@ -86,9 +90,11 @@
               </p>
             </li>
             <li>
-              <svg class="illustration" width="32" height="32">
+              <div class="decoration">
+              <svg class="illustration" width="64" height="64">
                 <use href="./images/icons.svg#diagram"></use>
               </svg>
+              </div>
               <h3>Diligence</h3>
               <p>
                 Research and confirm brands with the strongest digital growth
@@ -96,9 +102,11 @@
               </p>
             </li>
             <li>
-              <svg class="illustration" width="32" height="32">
+              <div class="decoration">
+              <svg class="illustration" width="64" height="64">
                 <use href="./images/icons.svg#astronaut"></use>
               </svg>
+              </div>
               <h3>Technologies</h3>
               <p>
                 Design practice focused on digital experiences. We bring forth a
@@ -118,7 +126,7 @@
                 <h3 class="team-name">Mark Guerrero</h3>
                 <p class="team-position">Product Designer</p>
                 <ul class="team-link">
-                  <li class="">
+                  <li>
                     <a href="#" class="icons-style">
                     <svg class="social-svg" width="16" height="16">
                       <use href="./images/icons.svg#instagram"></use>
@@ -269,11 +277,17 @@
           <h2 class="portfolio-title">Our Portfolio</h2>
           <ul class="portfolio-list">
             <li class="portfolio-card">
-              <img src="./images/portfolio-1.jpg" alt="website 1" width="360" />
+              <div class="overley">
+              <img src="./images/portfolio-1.jpg" class="gallery-img" alt="website 1" width="360" />
+             <div class="overley-text">
+                <p>14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
+              </div>
+              </div>
               <div class="portfolio-content">
                 <h3 class="portfolio-item">Banking App</h3>
                 <p class="portfolio-name">App</p>
               </div>
+              
             </li>
             <li class="portfolio-card">
               <img src="./images/portfolio-2.jpg" alt="website 2" width="360" />
@@ -315,49 +329,52 @@
       </section>
     </main>
 
-    <footer id="footer" class="footer">
-      <div class="container footer-logo-text">
-        <a href="./index.html" class="logo-footer"
-          ><span class="logo-web">WEB</span>STUDIO</a
-        >
-        <p class="footer-text">
-          Increase the flow of customers and sales for your business with
-          digital marketing & growth solutions.
-        </p>
-      </div>
-      <div class="container">
-        <p>Social Media</p>
-        <ul>
-          <li>
-            <a href="" class="footer-link">
-              <svg class="footer-icons" width="24" height="24">
-                <use href="./images/icons.svg#instagram"></use>
-              </svg>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <svg class="footer-icons" width="24" height="24">
-                <use href="./images/icons.svg#facebook"></use>
-              </svg>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <svg class="footer-icons" width="24" height="24">
-                <use href="./images/icons.svg#twitter"></use>
-              </svg>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <svg class="footer-icons" width="24" height="24">
-                <use href="./images/icons.svg#linkedin"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </footer>
+   <footer id="footer" class="footer">
+  <div class="container footer-container">
+    <div class="footer-logo-text">
+      <a href="./index.html" class="logo-footer">
+        <span class="logo-web">WEB</span>STUDIO
+      </a>
+      <p class="footer-text">
+        Increase the flow of customers and sales for your business with
+        digital marketing & growth solutions.
+      </p>
+    </div>
+    
+    <div class="media">
+      <p class="media-title">Social Media</p>
+      <ul class="list-footer-link">
+        <li>
+          <a href="" class="media-link">
+            <svg class="footer-icons" width="24" height="24">
+              <use href="./images/icons.svg#instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="" class="media-link">
+            <svg class="footer-icons" width="24" height="24">
+              <use href="./images/icons.svg#facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="" class="media-link">
+            <svg class="footer-icons" width="24" height="24">
+              <use href="./images/icons.svg#twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="" class="media-link">
+            <svg class="footer-icons" width="24" height="24">
+              <use href="./images/icons.svg#linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>
   </body>
 </html>

@@ -21,7 +21,7 @@
 .team-block {
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
-  box-shadow: #2E2F4214, #2E2F4229;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .team-content {
@@ -63,6 +63,9 @@
 }
 
 .icons-style:hover{
+  background-color: #404BBF;
+}
+.icons-style:active{
   background-color: #404BBF;
 
 }
