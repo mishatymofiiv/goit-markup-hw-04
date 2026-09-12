@@ -22,6 +22,7 @@
 
 .portfolio-card {
   width: calc((100% - 48px) / 3);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-card:hover, .portfolio-card:active{
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
@@ -76,7 +77,8 @@
   color: #F4F4FD;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
+  padding-bottom: 40px;
   padding-top: 40px;
   padding-left: 32px;
   padding-right: 32px;

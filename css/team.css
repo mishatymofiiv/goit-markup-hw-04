@@ -69,7 +69,9 @@
 }
 .icons-style:active{
   background-color: #404BBF;
-
+}
+.icons-style:focus{
+  background-color: #404BBF;
 }
 
 
